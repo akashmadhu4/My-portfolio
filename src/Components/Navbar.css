@@ -1,0 +1,9 @@
+.nav_text{
+    font-family: 'Henny Penny', cursive;
+}
+.navbar-brand{
+    margin-left: 25vw;
+}
+#navbarSupportedContent{
+    margin-right:25vw;
+}
