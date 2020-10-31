@@ -1,3 +1,23 @@
-.cert__body{
-    margin-top: 150px;
+
+.cert_row{
+    position: relative;
+    margin-top:300px;
+}
+.cert__row{
+    position: relative;
+    margin-top: 100px;
+}
+
+.cert_heading{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color: white;
+}
+.cert_card{
+    border: 6px solid grey;
+    border-radius:10px;
+}
+.cert_card:hover{
+    background-color: yellow;
+    cursor: pointer;
 }
