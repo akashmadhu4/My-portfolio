@@ -15,7 +15,7 @@ function Navbar(){
                             <a className="nav-link nav__listitems nav_text" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item js-scroll-trigger">
-                            <a className="nav-link nav__listitems nav_text" href="#">About Me</a>
+                            <a className="nav-link nav__listitems nav_text" href="#aboutme">About Me</a>
                         </li>
                         <li className="nav-item js-scroll-trigger">
                             <a className="nav-link nav__listitems nav_text" href="#"> My Projects</a>

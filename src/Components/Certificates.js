@@ -5,12 +5,14 @@ import Reactcoursera from '../images/Reactcoursera.jpg';
 import bootstrap4 from '../images/bootstrap4coursera.jpg';
 import responsive from '../images/courserawebdesgin.jpg';
 import coursera4 from '../images/coursera4.jpg';
+import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const RenderCard=(props)=>{
     return(         
             <a>
                 <Card className="cert_card">
-                    <CardImg src={props.image}/>
+                    <VisibilityIcon style={{ fontSize: 20 }} className="eyeicon"/>
+                    <CardImg src={props.image} className="cert_image"/>
                 </Card> 
             </a>     
     );

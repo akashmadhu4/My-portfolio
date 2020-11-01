@@ -16,8 +16,19 @@
 .cert_card{
     border: 6px solid grey;
     border-radius:10px;
+    cursor: pointer;
+}
+.eyeicon{
+    position:absolute;
+    margin-top:0px;
+    top:50%;
+    left:50%;
+    color:black;
+    opacity:0; 
+}
+.cert_card:hover .eyeicon{
+    opacity:1;
 }
 .cert_card:hover{
-    background-color: yellow;
-    cursor: pointer;
+    opacity: 0.3;
 }

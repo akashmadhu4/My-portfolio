@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import './App.css';
 import Certificates from './Components/Certificates';
+import Aboutme from './Components/Aboutme';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <div className="my-contents">
         <Home/>
+        <Aboutme/>
         <Certificates/>
       </div>
     </div>      
