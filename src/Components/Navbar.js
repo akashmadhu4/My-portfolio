@@ -3,7 +3,6 @@ import './Navbar.css';
 
 function Navbar(){
     return(
-        <div>
             <div className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" role="navigation">
                 <a className="navbar-brand nav_text"href="#">Akash Madhu</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +24,7 @@ function Navbar(){
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>    
+            </div>   
     );
 }
 

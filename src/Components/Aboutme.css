@@ -58,14 +58,9 @@
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border:5px solid #e9ecef;
     border-radius: 100%;
     background-color: #fed136;
-}
-.timeline > li .timeline-image h4 {
-    font-size: 10px;
-    line-height: 14px;
-    margin-top: 12px;
 }
 .timeline > li .timeline-image > .timeline-panel {
     float: right;
@@ -87,7 +82,8 @@
 .timeline > li:last-child {
     margin-bottom: 0;
 }
-.timeline .timeline-heading h4 {
+.timeline .timeline-heading h3 {
+    font-family: 'Shadows Into Light', cursive;
     margin-top: 0;
     color: white;
 }
@@ -115,4 +111,9 @@
     color: #6c757d !important;
     font-size:15px
   }
-  
+.paragraph2{
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px; 
+    color:#ffc107;
+}
