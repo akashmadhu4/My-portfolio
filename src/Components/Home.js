@@ -14,7 +14,7 @@ function Home(){
                             <h2 className="heading">Web Developer</h2>
                             <p className="paragraph">I am a web developer from India, Kerala. I enjoy building everything from small website to interactive web apps.if you are an employer looking to hire,you can get in touch with me here.</p>
                         </div>
-                        <div className="col-md-5 ml-5">
+                        <div className="col-12 col-md-5 d-flex justify-content-center">
                             <img src={myimage} className="photo_adjust"></img>
                         </div>
                     </div>
