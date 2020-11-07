@@ -117,3 +117,27 @@
     font-size: 30px; 
     color:#ffc107;
 }
+.skills_sub_heading{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 40px;
+}
+.skills_frontend_row{
+    position: relative;
+    margin-top: 10px;
+}
+.skill_front_list{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 30px;
+}
+.skills_backend_row{
+    position: relative;
+    margin-top: 10px;
+}
+.skill_back_list{
+    font-size: 30px;
+}
+.mongoimage{
+    vertical-align: top;
+}

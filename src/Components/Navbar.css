@@ -1,10 +1,9 @@
 
 .nav_text{
     font-family: 'Graduate', cursive;
-}
-.navbar-brand{
-    margin-left: 20vw;
+    padding: 20px;
+    
 }
 #navbarSupportedContent{
-    margin-right:25vw;
+    margin-left: 15vw;
 }

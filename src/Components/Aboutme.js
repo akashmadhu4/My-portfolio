@@ -1,5 +1,8 @@
 import React from 'react';
 import './Aboutme.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import mongodbpng from '../images/mongodb.png'
+import { faHtml5,faCss3Alt,faBootstrap,faReact,faJs,faNode} from '@fortawesome/free-brands-svg-icons';
 
 function Aboutme(){
     return(
@@ -29,7 +32,31 @@ function Aboutme(){
                         </div> 
                         <div className="row about___row">
                             <div className="col-12 mb-5">
-                                
+                                <h3 className="skills_sub_heading d-flex justify-content-center">Front-End Technology</h3>
+                            </div>
+                        </div>
+                        <div className="row skills_frontend_row">
+                            <div className="col-12 d-flex justify-content-center">
+                                <span className="skill_back_list">
+                                    <FontAwesomeIcon className="p-3" icon={faHtml5} color="#E44D26" size="5x" inside="white"/>
+                                    <FontAwesomeIcon className="p-3" icon={faCss3Alt} color="#2862E9" size="5x"/>  
+                                    <FontAwesomeIcon className="p-3" icon={faBootstrap} color="#533B78" size="5x"/>
+                                    <FontAwesomeIcon className="p-3" icon={faJs} color="#F7E018" size="5x"/>
+                                    <FontAwesomeIcon className="p-3" icon={faReact} color="#61DAFB" size="5x" spin/>
+                                </span>    
+                            </div>   
+                        </div>
+                        <div className="row">
+                            <div className="col-12 mt-5">
+                                <h3 className="skills_sub_heading d-flex justify-content-center">Back-end Technology</h3>
+                            </div>
+                        </div>
+                        <div className="row skills_backend_row">
+                            <div className="col-12">
+                                <span className="skill_back_list">
+                                    <FontAwesomeIcon className="p-3" icon={faNode} color="#70A861" size="5x" inside="white"/>
+                                    <img src={mongodbpng} height="200px" width="200px" text-align="center" className="mongoimage p-3"></img> 
+                                </span>  
                             </div>
                         </div>
                     </div>
